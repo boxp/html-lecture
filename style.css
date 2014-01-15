@@ -1,0 +1,39 @@
+/*全体の背景を青くする*/
+body{
+  background-color: blue;
+}
+
+/*リンクのサイズを親要素とぴったり同じにする*/
+a{
+  display: block;
+  height: 200px;
+}
+
+/*サイドバー、ヘッド部分、記事部分の背景を白くする*/
+#sidebar,
+#head,：ｗ
+#content{
+  background-color: white;
+}
+
+/*ヘッド部分と記事部分の間をあける*/
+#head{
+  margin:0 0 20px 0;
+}
+
+/*サイドバーの幅高さ、横の記事との間をあける*/
+#sidebar{
+  width: 30vw;
+  float: left;
+  height: 100vh;
+  margin: 0 20px 0 0;
+}
+
+#content{
+  height: 90vh;
+}
+
+#wrap{
+  width: 55vw;
+  float: left;
+}
