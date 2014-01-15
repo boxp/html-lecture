@@ -36,10 +36,11 @@ ol > li:first-letter{
   font-size: 1.2em;
 }
 
-/*サイドバー、ヘッド部分、記事部分の背景を白くする*/
+/*サイドバー、ヘッド部分、記事部分、フォーム部分の背景を白くする*/
 #sidebar,
 #head,
-#content{
+#content,
+#form{
   background-color: white;
   box-shadow: black 0 0 2px;
 }
