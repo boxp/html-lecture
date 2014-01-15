@@ -19,10 +19,6 @@ a:hover{
 }
 
 /*リンクのサイズを親要素とぴったり同じにする*/
-img{
-  display: block;
-}
-
 ul{
   padding-left: 1.2em;
 }
@@ -35,15 +31,13 @@ ol > li:first-letter{
   font-size: 1.2em;
 }
 
-/*サイドバー、ヘッド部分、記事部分の背景を白くする*/
+/*サイドバー、ヘッド、記事部分の背景を白くする。影をつける。*/
 #sidebar,
 #head,
 #content{
   background-color: white;
   box-shadow: black 0 0 2px;
 }
-
-/*ヘッド部分と記事部分の間をあける*/
 
 /*サイドバーの幅高さ、横の記事との間をあける*/
 #sidebar{
@@ -53,12 +47,14 @@ ol > li:first-letter{
   margin: 0 20px 0 0;
 }
 
+/*ヘッド部分の高さを決めて、他の要素との間をあける*/
 #head{
   margin:0 0 20px;
+  height: 200px;
 }
 
 #content{
-  padding: 5px 2px;
+  padding: 5px;
 }
 
 #wrap{
