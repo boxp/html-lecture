@@ -1,16 +1,15 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-<link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="script.js"></script>
-<title>ホームページを作ってみよう</title>
 <meta charset="utf-8">
+<title>ホームページを作ってみよう</title>
+<link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 </head>
 <body>
 <div id="wrapper">
   <div id="sidebar">
-    <h5>便利なリンク</h5>
+    <h4>便利なリンク</h4>
     <ul>
       <li><a href="https://developer.mozilla.org/ja/">Mozilla Developer Network</a></li>
       <li><a href="http://www.tohoho-web.com/how2/index.htm">とほほの逆引きリファレンス</a></li>
@@ -27,18 +26,22 @@
     <div id="content">
       <h1>How to write HTML</h1>
       <ol>
-        <li>What is HTML<br/>HTMLはHyper Text Markup Languageです。</li>
-        <li>道具を用意する。<br/>テキストエディタやWebブラウザなど必要な道具を揃えましょう。</li>
-        <li>完成予想図。<br/>今日製作するページを見てみましょう。</li><li>HTMLを書く。<br/>基本の文章となるHTMLを書きます。</li>
-        <li>CSSを書く。<br/>装飾を担当するCSSを書きます。</li>
-        <li>JavaScriptを書く。<br/>便利なプログラミングについて学びます。</li>
-        <li>Firefox Dev Toolsで調整してみる。<br/>Firefoxでホームページの見た目を調整しましょう。</li>
+        <li>What is HTML<p>HTMLはHyperText Markup Languageの略称です。Web上の文書を記述するためのマークアップ言語です。プログラミング言語ではありません。</p></li>
+        <li>道具を用意する。<p>テキストエディタやWebブラウザなど必要な道具を揃えましょう。WebブラウザはFirefox、テキストエディタは<a href="http://brackets.io">Brackets</a>を使います。</p></li>
+        <li>完成予想図。<p>今日製作するページを見てみましょう。</p></li>
+        <li>HTMLを書く。<p>基本の文章となるHTMLを書きます。</p></li>
+        <li>CSSを書く。<p>装飾を担当するCSSを書きます。</p></li>
+        <li>JavaScriptを書く。<p>プログラミングでHTMLに変化を与えます。</p></li>
+        <li>Firefox Dev Toolsで調整する。<p>Firefoxでホームページの見た目を調整しましょう。</p></li>
       </ol>
     </div>
     <div id="form">
-    <h1>Free Fall</h1>
-    <p><input type="text" id="input-form" size=15><button onClick="post();">Post</button>
+      <h1>Use JavaScript</h1>
+      <ul>
+        <li>Free fall<p><input type="text" name="input-form" placeholder="ここに文字列を入力"><button onClick="post();">Post</button></p></li>
+      </ul>
     </div>
   </div>
 </div>
 </body>
+</html>
