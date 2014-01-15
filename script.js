@@ -1,14 +1,14 @@
-var post = function() {
+function post() {
 
-  //ブラウザのサイズを取得
-  let height = document.documentElement.clientHeight;
-  let width = document.documentElement.clientWidth;
+  /* ブラウザのサイズを取得 */
+  var height = document.documentElement.clientHeight;
+  var width = document.documentElement.clientWidth;
 
   //テキストフィールドからテキストを取得
-  let text = document.js.textf.value;
+  var text = document.getElementById("form").value;
 
   //domの生成、配置
-  let textv = document.createElement("div");
+  var textv = document.createElement("div");
   document.body.appendChild(textv);
   textv.offsetTop = 0;
   textv.offsetWidth = width * Math.random();
