@@ -1,4 +1,4 @@
-function post() {
+var post = function() {
 
   /* ブラウザのサイズを取得 */
   var height = document.documentElement.clientHeight;
@@ -9,16 +9,18 @@ function post() {
 
   //domの生成、配置
   var textv = document.createElement("div");
+  textv.position = "fixed"
   textv.innerHTML = text;
   document.body.appendChild(textv);
-  textv.offsetTop = 0;
-  textv.offsetWidth = width * Math.random();
+  textv.style.top = "0px";
+  textv.style.left = width * Math.random() + "px";
 
   //domを上から落とす
   for (var i=0; i < height; ++i) {
-    textv.offsetTop = i;
+    textv.style.top = i + "px";
   }
 
   //domを消す
   document.body.removeChild(textv);
+  return 0;
 };
