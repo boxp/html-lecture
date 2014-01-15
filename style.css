@@ -1,0 +1,68 @@
+/*全体の背景を青くする*/
+body{
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+  background-image: linear-gradient(rgba(18,52,86,1),rgba(18,52,86,0.7));
+  background-attachment: fixed;
+}
+
+body > div{
+  width: 880px;
+  margin: 0 auto;
+}
+
+a{
+  transition: color 1s;
+}
+
+a:hover{
+  color: skyblue;
+}
+
+/*リンクのサイズを親要素とぴったり同じにする*/
+img{
+  display: block;
+  height: 200px;
+}
+
+ul{
+  padding-left: 1.2em;
+}
+
+li{
+  padding: 8px 0;
+}
+
+ol > li:first-letter{
+  font-size: 1.2em;
+}
+
+/*サイドバー、ヘッド部分、記事部分の背景を白くする*/
+#sidebar,
+#head,
+#content{
+  background-color: white;
+  box-shadow: black 0 0 2px;
+}
+
+/*ヘッド部分と記事部分の間をあける*/
+
+/*サイドバーの幅高さ、横の記事との間をあける*/
+#sidebar{
+  width: 220px;
+  float: left;
+  padding: 2px;
+  margin: 100px 20px 0 0;
+}
+
+#head{
+  margin:0 0 20px;
+}
+
+#content{
+  padding: 5px 2px 25px;
+}
+
+#wrap{
+  float: left;
+  width: 540px;
+}
