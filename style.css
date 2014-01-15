@@ -1,10 +1,10 @@
-/*全体の背景を青くする*/
+/*全体の背景とフォントの種類について*/
 body{
   font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
   background-image: linear-gradient(rgba(18,52,86,1),rgba(18,52,86,0.7));
-  background-attachment: fixed;
 }
 
+/*コンテンツをページ中央に寄せる*/
 body > div{
   width: 880px;
   margin: 0 auto;
@@ -21,15 +21,10 @@ a:hover{
 /*リンクのサイズを親要素とぴったり同じにする*/
 img{
   display: block;
-  height: 200px;
 }
 
 ul{
   padding-left: 1.2em;
-}
-
-ol{
-  line-height: 120%;
 }
 
 li{
@@ -55,7 +50,7 @@ ol > li:first-letter{
   width: 220px;
   float: left;
   padding: 2px;
-  margin: 100px 20px 0 0;
+  margin: 0 20px 0 0;
 }
 
 #head{
@@ -63,7 +58,7 @@ ol > li:first-letter{
 }
 
 #content{
-  padding: 5px 2px 25px;
+  padding: 5px 2px;
 }
 
 #wrap{
