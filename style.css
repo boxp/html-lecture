@@ -5,7 +5,7 @@ body{
 }
 
 /*コンテンツをページ中央に寄せる*/
-body > div{
+#wrapper{
   width: 880px;
   margin: 0 auto;
 }
@@ -57,7 +57,7 @@ ol > li:first-letter{
   padding: 5px;
 }
 
-#wrap{
+#main{
   float: left;
   width: 540px;
 }
