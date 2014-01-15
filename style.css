@@ -11,7 +11,7 @@ a{
 
 /*サイドバー、ヘッド部分、記事部分の背景を白くする*/
 #sidebar,
-#head,：ｗ
+#head,
 #content{
   background-color: white;
 }
