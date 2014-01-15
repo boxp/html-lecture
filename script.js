@@ -1,5 +1,14 @@
 var post = function() {
 
+  //dom作成
+  var textv = document.createElement("div");
+  document.body.appendChild(textv);
+  textv.removeAttribute("style");
+  textv.style.position = "fixed";
+  textv.style.transition = "all 8s";
+  textv.style.top = "0px";
+  textv.style.fontSize = "20em";
+
   /* ブラウザのサイズを取得 */
   var height = document.documentElement.clientHeight;
   var width = document.documentElement.clientWidth;
@@ -8,19 +17,13 @@ var post = function() {
   var text = document.getElementById("input-form").value;
 
   //domの生成、配置
-  var textv = document.createElement("div");
-  textv.position = "fixed"
-  textv.innerHTML = text;
-  document.body.appendChild(textv);
-  textv.style.top = "0px";
+  textv.textContent = text;
   textv.style.left = width * Math.random() + "px";
 
   //domを上から落とす
-  for (var i=0; i < height; ++i) {
-    textv.style.top = i + "px";
-  }
+  textv.style.top = height + "px";
 
   //domを消す
-  document.body.removeChild(textv);
+  setTimeout(function(){document.body.removeChild(textv);},8000)
   return 0;
 };
