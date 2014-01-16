@@ -8,34 +8,32 @@ body{
 /*コンテンツをページ中央に寄せる*/
 #wrapper{
   width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
 }
 
-/*サイドバーの幅高さ、横の記事との間をあける*/
-#sidebar{
-  float: left;
-  width: 220px;
-  margin-right: 20px;
-}
-
-/*ヘッド部分と記事部分の位置を調整する*/
+/*ヘッド部分と記事部分の幅を決めて、右側に固定する*/
 #main{
-  float: left;
+  float: right;
   width: 540px;
 }
 
 /*ヘッド部分の高さを決めて、他の要素との間をあける。影を付ける。*/
 #head{
   height: 200px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   box-shadow: black 0 0 2px;
+}
+
+/*サイドバーの幅を決める。*/
+#sidebar{
+  width: 220px;
 }
 
 /*サイドバー、記事部分、フォーム部分の背景を白くする。影を付ける。*/
 #sidebar,
 #content,
 #form{
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   padding: 10px;
   background-color: white;
   box-shadow: black 0 0 2px;
@@ -43,7 +41,7 @@ body{
 
 /*サイドバーのリンクの位置の調整*/
 ul{
-  padding-left: 1.2em;
+  padding: 0 0 0 1.2em;
 }
 
 /*おまけ・コンテンツ部分のフォントのサイズをいじる*/
@@ -59,3 +57,19 @@ a{
 a:hover{
   color: skyblue;
 }
+
+/*
+width 要素の幅
+height 要素の高さ
+margin ある要素と他の要素との間の長さ
+padding ある要素のコンテンツとと要素それ自身の間の長さ
+font-family フォントの種類
+font-size 文字サイズ
+line-height 行の高さ
+color 文字色
+background-color 背景色
+transition アニメーション効果を与える
+background-image 背景画像
+float 要素を右若しくは左に寄せる
+詳細はMozilla Developer Netoworkなどのリファレンスサイトを参照
+*/
