@@ -24,7 +24,7 @@ body{
   box-shadow: black 0 0 2px;
 }
 
-#head img{
+#head > img{
   display: block;
 }
 
@@ -44,7 +44,7 @@ body{
 }
 
 /*サイドバーのリンクの位置の調整*/
-ul{
+#sidebar > ul{
   padding: 0 0 0 1.2em;
 }
 
