@@ -24,6 +24,10 @@ body{
   box-shadow: black 0 0 2px;
 }
 
+#head img{
+  display: block;
+}
+
 /*サイドバーの幅を決める。*/
 #sidebar{
   width: 220px;
