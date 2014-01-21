@@ -1,6 +1,5 @@
 /*全体の背景とフォントの種類*/
 body{
-  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
   background-image: linear-gradient(darkblue,skyblue);
   line-height: 175%;
 }
