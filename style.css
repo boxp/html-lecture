@@ -1,7 +1,7 @@
 /*全体の背景とフォントの種類*/
 body{
   font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
-  background-image: linear-gradient(rgba(18,52,86,1),rgba(18,52,86,0.7));
+  background-image: linear-gradient(darkblue,skyblue);
   line-height: 175%;
 }
 
@@ -74,6 +74,6 @@ color 文字色
 background-color 背景色
 transition アニメーション効果を与える
 background-image 背景画像
-float 要素を右若しくは左に寄せる
+float 要素を右もしくは左に寄せる
 詳細はMozilla Developer Netoworkなどのリファレンスサイトを参照
 */
