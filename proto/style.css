@@ -1,0 +1,79 @@
+/*全体の背景とフォントの種類*/
+body{
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+  background-image: linear-gradient(rgba(18,52,86,1),rgba(18,52,86,0.7));
+  line-height: 175%;
+}
+
+/*コンテンツをページ中央に寄せる*/
+#wrapper{
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+
+/*ヘッド部分と記事部分の幅を決めて、右側に固定する*/
+#main{
+  float: right;
+  width: 540px;
+}
+
+/*ヘッド部分の高さを決めて、他の要素との間をあける。影を付ける。*/
+#head{
+  height: 200px;
+  margin: 0 0 20px 0;
+  box-shadow: black 0 0 2px;
+}
+
+#head > img{
+  display: block;
+}
+
+/*サイドバーの幅を決める。*/
+#sidebar{
+  width: 220px;
+}
+
+/*サイドバー、記事部分、フォーム部分の背景を白くする。影を付ける。*/
+#sidebar,
+#content,
+#form{
+  margin: 0 0 20px 0;
+  padding: 10px;
+  background-color: white;
+  box-shadow: black 0 0 2px;
+}
+
+/*サイドバーのリンクの位置の調整*/
+#sidebar > ul{
+  padding: 0 0 0 1.2em;
+}
+
+/*おまけ・コンテンツ部分のフォントのサイズをいじる*/
+ol > li:first-letter{
+  font-size: 1.2em;
+}
+
+/*おまけ・ホバーしたときリンクの色を変える*/
+a{
+  transition: color 0.7s;
+}
+
+a:hover{
+  color: skyblue;
+}
+
+/*
+width 要素の幅
+height 要素の高さ
+margin ある要素と他の要素との間の長さ
+padding ある要素のコンテンツとと要素それ自身の間の長さ
+font-family フォントの種類
+font-size 文字サイズ
+line-height 行の高さ
+color 文字色
+background-color 背景色
+transition アニメーション効果を与える
+background-image 背景画像
+float 要素を右若しくは左に寄せる
+詳細はMozilla Developer Netoworkなどのリファレンスサイトを参照
+*/
