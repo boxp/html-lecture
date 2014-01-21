@@ -1,16 +1,16 @@
-/*全体の背景とフォントの種類*/
+/*全体の背景と行間の設定*/
 body{
   background-image: linear-gradient(darkblue,skyblue);
   line-height: 175%;
 }
 
-/*コンテンツをページ中央に寄せる*/
+/*パーツの集まりのサイズを決め、ページ中央に寄せる。*/
 #wrapper{
   width: 800px;
   margin: 0 auto 0 auto;
 }
 
-/*ヘッド部分と記事部分の幅を決めて、右側に固定する*/
+/*ヘッド部分と記事部分の幅を決めて、右側に固定する。*/
 #main{
   float: right;
   width: 540px;
@@ -42,17 +42,17 @@ body{
   box-shadow: black 0 0 2px;
 }
 
-/*サイドバーのリンクの位置の調整*/
+/*サイドバーのリンクの位置の調整、#sidebarのすぐ下にあるulという要素について調整している。*/
 #sidebar > ul{
   padding: 0 0 0 1.2em;
 }
 
-/*おまけ・コンテンツ部分のフォントのサイズをいじる*/
+/*おまけ・コンテンツ部分のフォントのサイズをいじる。*/
 ol > li:first-letter{
   font-size: 1.2em;
 }
 
-/*おまけ・ホバーしたときリンクの色を変える*/
+/*おまけ・ホバーしたときリンクの色を変える。*/
 a{
   transition: color 0.7s;
 }
