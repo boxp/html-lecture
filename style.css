@@ -1,6 +1,6 @@
 /*全体の背景と行間の設定*/
 body{
-  background-image: linear-gradient(darkblue,skyblue);
+  background-color: ivory;
   line-height: 175%;
 }
 
@@ -72,7 +72,5 @@ line-height 行の高さ
 color 文字色
 background-color 背景色
 transition アニメーション効果を与える
-background-image 背景画像
-float 要素を右もしくは左に寄せる
 詳細はMozilla Developer Netoworkなどのリファレンスサイトを参照
 */
