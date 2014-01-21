@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+<title>ホームページを作ってみよう</title>
+<meta charset="utf-8">
+<script src="script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+  <div id="sidebar">
+    <h5>便利なリンク</h5>
+    <ul>
+      <li><a href="https://developer.mozilla.org/ja/">Mozilla Developer Network</a></li>
+      <li><a href="http://www.tohoho-web.com/how2/index.htm">とほほの逆引きリファレンス</a></li>
+      <li><a href="http://www.kanzaki.com/docs/html/lesson1.html">30分間HTML入門</a></li>
+      <li><a href="http://validator.w3.org/check">W3C Validation</a></li>
+      <li><a href="http://www.mozilla.jp/">Mozilla Japan</a></li>
+      <li>and more...</li>
+    </ul>
+  </div>
+  <div id="main">
+    <div id="head">
+      <a href="a.html"><img src="image.jpg" alt="image"></a>
+    </div>
+    <div id="content">
+      <h1>How to write HTML</h1>
+      <ol>
+        <li>What is HTML<p>HTMLはHyper Text Markup Languageです。</p></li>
+        <li>道具を用意する。<br/>テキストエディタやWebブラウザなど必要な道具を揃えましょう。</li>
+        <li>完成予想図。<br/>今日製作するページを見てみましょう。</li>
+        <li>HTMLを書く。<br/>基本の文章となるHTMLを書きます。</li>
+        <li>CSSを書く。<br/>装飾を担当するCSSを書きます。</li>
+        <li>JavaScriptを書く。<br/>便利なプログラミングについて学びます。</li>
+        <li>Firefox Dev Toolsで調整してみる。<br/>Firefoxでホームページの見た目を調整しましょう。</li>
+      </ol>
+    </div>
+    <div id="form">
+    <h1>Free Fall</h1>
+    <p><input type="text" name="input-form" placeholder="ここに文字列を入力"><button onClick="post();">Post</button>
+    </div>
+  </div>
+</div>
+</body>
