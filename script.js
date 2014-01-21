@@ -5,7 +5,7 @@ var post = function() {
   document.body.appendChild(textv);
   textv.removeAttribute("style");
   textv.style.position = "fixed";
-  textv.style.transition = "all 8s";
+  textv.style.transition = "all 2s";
   textv.style.top = "0px";
   textv.style.fontSize = "20em";
 
@@ -24,6 +24,6 @@ var post = function() {
   textv.style.top = height + "px";
 
   //domを消す
-  setTimeout(function(){document.body.removeChild(textv);},8000)
+  setTimeout(function(){document.body.removeChild(textv);},2000)
   return 0;
 };
