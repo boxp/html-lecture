@@ -49,9 +49,9 @@
  これだけでは分かりにくいので、実際にさきほど書いたhtmlの見た目をCSSで変更してみましょう。
  下記をstyle.cssに書き込み保存、ブラウザを更新してください。
 
-   body{
-     background-image: linear-gradient(darkblue,skyblue);
-   }
+    body{
+      background-image: linear-gradient(darkblue,skyblue);
+    }
 
  ウェブページの背景が変わったと思います。このようにCSSは背景などのウェブページの見た目を変更する役割を持っています。
  上記のコードでは、bodyという要素(変更したい要素)の背景(なにを変更するか)をダークブルーとスカイブルーのグラデーション(どのように変更するか)に指定しています。
