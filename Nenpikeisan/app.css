@@ -1,0 +1,23 @@
+html{
+	background: #ffffff;
+	font-weight: bolder;
+}
+
+h1{
+	font-size: 2rem;
+}
+
+input{
+	color: #000000;
+	font-size: 1rem;
+}
+
+p{
+	color: #000000;
+	font-size: 1rem;
+}
+
+button{
+	color: #000000;
+	font-size: 0.7rem;
+}
