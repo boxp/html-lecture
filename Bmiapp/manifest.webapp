@@ -1,0 +1,13 @@
+{
+    "name": "燃費計算",
+    "description": "燃費を計算するアプリです",
+    "launch_path": "/index.html",
+    "icons": {
+        "128": "/icon_128.png"
+    },
+    "developer": {
+    	"name": "marketing team",
+    	"url": "http://fxstudent.tumblr.com/"
+    },
+    "default_locale": "ja"
+}
