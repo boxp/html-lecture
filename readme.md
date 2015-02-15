@@ -117,6 +117,7 @@ javascriptでコンテナに服をしまうように一時的にデータを保�
 ここまで学んだHTML,CSS,JavaScriptの知識を使って、アプリを作ってみましょう。
 
 ![サンプルアプリ](figure/figure3.png)
+
 上のページがそのままアプリ画面となります。
 
 HTML,CSS,JavaScriptを用いたアプリは、Bmiappフォルダのように以下のファイルから作られます。
