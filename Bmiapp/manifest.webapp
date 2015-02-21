@@ -1,6 +1,6 @@
 {
-    "name": "燃費計算",
-    "description": "燃費を計算するアプリです",
+    "name": "BMI計算アプリ",
+    "description": "BMIを計算するアプリです",
     "launch_path": "/index.html",
     "icons": {
         "128": "/icon_128.png"
