@@ -130,4 +130,4 @@ HTML,CSS,JavaScriptを用いたアプリは、Bmiappフォルダのように以�
 
 HTMLファイル・CSSファイル・JavaScriptファイルについてはウェブページと同じなので割愛しますが、このウェブページをアプリにする為にはアイコンファイル・マニフェストファイルが必要になります。
 
-マニフェストファイルはjsonというデータ記述言語で書かれておりますが、[Manifest Maker](whitehawk-taka.tumblr.com/manifestmaker)を用いることで簡単に作成出来ます。
+マニフェストファイルはjsonというデータ記述言語で書かれておりますが、[Manifest Maker]<http://whitehawk-taka.tumblr.com/manifestmaker>を用いることで簡単に作成出来ます。
